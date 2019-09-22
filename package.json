@@ -1,0 +1,50 @@
+{
+  "name": "portfolio-hooks",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "nodemon --exec babel-node ./dist/main.js & nodemon --exec babel-node apiServer.js & nodemon --exec babel-node app.js ",
+    "run": "node apiServer.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "babel-loader": "^8.0.6",
+    "connect-mongo": "^3.0.0",
+    "debug": "~2.6.9",
+    "eslint": "^6.2.2",
+    "express": "^4.17.1",
+    "http-errors": "~1.6.2",
+    "http-proxy": "^1.17.0",
+    "http-proxy-middleware": "^0.18.0",
+    "mongodb": "^3.3.2",
+    "mongoose": "^5.6.11",
+    "morgan": "^1.9.1",
+    "nodemailer": "^6.3.0",
+    "nodemon": "^1.19.1",
+    "react": "^16.9.0",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-bootstrap": "^1.0.0-beta.12",
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.1.1",
+    "react-router-bootstrap": "^0.25.0",
+    "react-router-dom": "^5.0.1",
+    "react-transition-group": "^2.9.0",
+    "redux": "^4.0.4",
+    "redux-form": "^8.2.6",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "shortid": "^2.2.14",
+    "webpack": "^4.39.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "ejs": "^2.6.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "webpack-cli": "^3.3.7"
+  }
+}
